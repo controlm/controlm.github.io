@@ -45,11 +45,13 @@ footer{
 
 .container{
     margin: auto;
+    /* height: 100%; */
+    /* min-height: 1000px; */
     min-width: 400px;
     width: 90%;
 
     background-color: white;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .featured{
@@ -155,7 +157,7 @@ footer{
 .more{
     display: flex;   
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 4rem;
 
     margin: 2rem;
@@ -166,11 +168,13 @@ footer{
 
 .card-more{
     max-width: 400px;
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
 
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 20px 0px, rgba(0, 0, 0, 0.02) 0px 0px 0px 1px;
 
 }
 
