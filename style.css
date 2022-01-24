@@ -83,7 +83,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;  
 
-    box-shadow: rgba(0, 0, 0, 0.60) 0px 2px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .card-feature-text{
@@ -260,4 +260,13 @@ footer{
     text-decoration: none;
     color: inherit;
     font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(0, 134, 126);
+}
+
+.link:hover{    
+    color: rgb(0, 134, 126);
 }
